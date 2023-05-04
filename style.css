@@ -32,6 +32,24 @@ body{
     color: rgb(123, 104, 238);
     user-select: none;
 }
+#polosa1{
+    position: absolute;
+    top: 1300px;
+    width: 1910px;
+    height: 70px;
+    background-color: rgb(123, 104, 238);
+    color: rgb(123, 104, 238);
+    user-select: none;
+}
+#polosa2{
+    position: absolute;
+    top: 2300px;
+    width: 1910px;
+    height: 70px;
+    background-color: rgb(123, 104, 238);
+    color: rgb(123, 104, 238);
+    user-select: none;
+}
 #katalog{
     display: flex;
     justify-content: space-between;
@@ -55,6 +73,9 @@ body{
 }
 #background2{
     background-color: aqua;
+}
+#logo{
+    margin-top: 5px;  
 }
 #backList{
     position: absolute;
@@ -134,25 +155,146 @@ body{
     width: 80%;
     height: 40%;
 }
-#blockUslug1, #blockUslug2, #blockUslug3, #blockUslug4{
+#uslugi1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 40%;
+}
+#TextUslug1{
+    margin-top: 15%;
+    font-size: 20px;
+    left: 2%;
+}
+#TextUslug10{
+    position: absolute;
+    padding-top: 230px;
+    left: -5px;
+    color: rgb(255, 157, 45); 
+}
+#TextUslug2{
+    margin-top: 15%;
+    font-size: 20px;
+    left: 2%;
+}
+#TextUslug20{
+    position: absolute;
+    padding-top: 230px;
+    left: -5px;
+    color: rgb(45, 178, 255); 
+}
+#TextUslug3{
+    margin-top: 15%;
+    font-size: 20px;
+    left: 2%;
+}
+#TextUslug30{
+    position: absolute;
+    padding-top: 230px;
+    left: -5px;
+    color: rgb(227, 230, 69); 
+}
+#TextUslug4{
+    margin-top: 15%;
+    font-size: 20px;
+    left: 2%;
+}
+#TextUslug40{
+    position: absolute;
+    padding-top: 230px;
+    left: -5px;
+    color: rgb(79, 111, 250); 
+}
+.photoUslug{
+    border-radius: 40px;
+}
+#backgroundLOGO{
+    position: absolute;
+    top: 23%;
+    left: 68%;
+}
+#backgroundLOGO1{
+    position: absolute;
+    top: 75%;
+    left: 68%;
+}
+#blockUslug1{
     width: 300px;
     height: 500px;
     background-color: rgb(240, 240, 240);
     border-radius: 40px;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 2%;
     margin-right: 2%;
-    border: 3px solid rgb(82, 146, 241);    
+    border: 3px 3px 0px 0px solid rgb(255, 157, 45);
     box-shadow: 0 0 40px 40px rgb(240, 240, 240) inset, 0 0 0 0 rgb(240, 240, 240);
     transition: all 150ms ease-in-out;
     cursor: pointer;
 }
-#blockUslug1:hover, #blockUslug2:hover, #blockUslug3:hover, #blockUslug4:hover{
-    box-shadow: 0 0 10px 0 rgb(82, 146, 241) inset, 0 0 10px 4px rgb(82, 146, 241);
+#blockUslug2{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px 3px 0px 0px solid rgb(45, 178, 255);     
+    box-shadow: 0 0 40px 40px rgb(240, 240, 240) inset, 0 0 0 0 rgb(240, 240, 240);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
 }
-#html,#css,#js,#php{
+#blockUslug3{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px 3px 0px 0px solid rgb(251, 255, 45);   
+    box-shadow: 0 0 40px 40px rgb(240, 240, 240) inset, 0 0 0 0 rgb(240, 240, 240);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+#blockUslug4{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px 3px 0px 0px solid  rgb(79, 111, 250);   
+    box-shadow: 0 0 40px 40px rgb(240, 240, 240) inset, 0 0 0 0 rgb(240, 240, 240);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+#blockUslug1:hover{
+    box-shadow: 0 0 10px 0 rgb(255, 157, 45) inset, 0 0 10px 4px rgb(255, 157, 45);
+}
+#blockUslug2:hover{
+    box-shadow: 0 0 10px 0 rgb(45, 178, 255) inset, 0 0 10px 4px rgb(45, 178, 255);
+}
+#blockUslug3:hover{
+    box-shadow: 0 0 10px 0 rgb(251, 255, 45) inset, 0 0 10px 4px rgb(251, 255, 45);
+}
+#blockUslug4:hover{
+    box-shadow: 0 0 10px 0 rgb(79, 111, 250) inset, 0 0 10px 4px rgb(79, 111, 250);
+}
+#html,#css,#php{
+    position: absolute;
     text-align: center;
     font-size: 32px;
     color:rgb(0, 0, 0);
-    margin-top: 10%;
+    margin: 2% 0% 0 1.2%;
+}
+#js{
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    color:rgb(0, 0, 0);
+    margin: 2% 0% 0 1.2%; 
 }
