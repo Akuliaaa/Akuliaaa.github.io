@@ -19,22 +19,25 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 100px 20px;
+    height: 7%;
+    padding: 70px 20px;
     display: flex;
     justify-content: space-between;
+    background: rgba(219, 219, 219, 0.61); 
+    user-select: none;
     align-items: center;
     z-index: 99;
     cursor: pointer;
 }
 .Logo{
     position: relative;
-    top: -80px;
+    top: -10px;
     color: rgb(0, 0, 0);
     font-size: 32px;
 }
 .navigation a{
     position: relative;
-    top: -100px;
+    top: -7px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -57,13 +60,12 @@ header{
     transform: scaleX(1);
     transition: transform .5s;
     transform-origin: left;
-
 }
 .navigation .Login {
     width: 100px;
     height: 50px;
     position: relative;
-    top: -100px;
+    top: -7px;
     background: transparent;
     border: 3px solid #000000;
     outline: none;
@@ -79,12 +81,16 @@ header{
     background: #000000;
     color: rgb(255, 255, 255);
 }
-#backgroundText{
+h3{
+    background: #000000;
     position: absolute;
-    top: 10%;
+}
+#TextKursi{
+    position: absolute;
+    top: 20%;
     left: 10%;
     font-size: 50px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     user-select: none;
 }
 #backgroundText1{
@@ -105,21 +111,23 @@ header{
 }
 #polosa1{
     position: absolute;
-    top: 1300px;
-    width: 1910px;
+    right: 17%;
+    top: 300px;
+    width: 1580px;
     height: 70px;
-    background-color: rgb(123, 104, 238);
-    color: rgb(123, 104, 238);
+    border-radius: 0 100px 10px 0;
+    background-color: rgb(48, 48, 48);
     user-select: none;
 }
 #polosa2{
     position: absolute;
-    top: 2300px;
-    width: 1910px;
+    top: 1100px;
+    width: 1551px;
     height: 70px;
-    background-color: rgb(123, 104, 238);
-    color: rgb(123, 104, 238);
+    border-radius: 10px 0 0 100px;
+    background-color: rgb(48, 48, 48);
     user-select: none;
+    
 }
 #katalog{
     display: flex;
@@ -148,8 +156,7 @@ header{
     margin-top: 5px;  
 }
 #backgroundText{
-    position: absolute;
-    top: 60px;
+    
     color: rgb(0, 0, 0);
     font-size: 65px;
     left: 7%;
@@ -157,57 +164,50 @@ header{
 }
 #opisText{
     position: absolute;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    width: 35%;
-    height: 10%;
-    left: 30%;
-    top: 2%;
-}
-#opisText2{
-    margin-top: 5%;
-}
-#opisanie{
-    margin-top: 7%;
-    margin-left: 11%;
-    width: 1490px;
-    height: 350px;
-    background-image: url("img/background2.png");
+    width: 55%;
+    height: 12%;
+    left: 20%;
+    top: 97%;
+    margin: 15px;
+    padding: 15px;
+    background: rgba(219, 219, 219, 0.61);  
     border-radius: 20px;
 }
-#opis{
-    display: flex;
-    justify-content: space-between;
+/* #opisanie{
+    margin: 0 125% 30% 0;
+    width: 850px;
+    height: 350px;
+    background-image: url("img/backgroundOPISANIE.png");
+    border-radius: 20px;
 }
 #TextOpis1{
-    color: aliceblue;
-    font-size: 24px;
-    margin: 3% 3% 0 3%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 5%;
     cursor: pointer;
     user-select: none;
 }
 #TextOpis2{
-    color: rgb(40, 255, 86);
+    color: rgb(73, 231, 107);
     font-size: 22px;
     margin-top: 7%;
-    margin-left: 23%;
-    text-align: center;
+    margin-left: 5%;
     cursor: pointer;
     user-select: none;
-    background-color: rgb(201, 57, 206);
     width: 420px;
     height: 70px;
     padding-top: 10px;
-    border-radius: 20px;
-}
+} */
 #background1{
     border-radius: 20px 0 0 20px;
 }
 #uslugi{
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 16%;
+    margin-left: -5%;
     width: 80%;
     height: 40%;
 }
@@ -215,7 +215,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: -5%;
     width: 80%;
     height: 40%;
 }
@@ -353,4 +353,12 @@ header{
     font-size: 32px;
     color:rgb(0, 0, 0);
     margin: 2% 0% 0 1.2%; 
+}
+.PriceList{
+    position: absolute;
+    transition: opacity 0.3s linear, visibility 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 200%;
 }
